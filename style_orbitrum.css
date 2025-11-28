@@ -324,25 +324,3 @@ input[type="color"]:hover {
   .janela-visual { width: 100%; }
   .painel { display: none; }
 }
-
-/* =========================================================
-   🧩 NÍVEL EXTRA — NANO E PICO (5º nível)
-   ========================================================= */
-
-/* Permitir que as nano-esferas mostrem seus filhos (picos) */
-.esfera.nano {
-  overflow: visible !important;
-}
-
-/* Configuração visual dos picos */
-.esfera.pico {
-  position: absolute;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background: radial-gradient(circle at 40% 40%, #ffffff, #999);
-  box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
-  opacity: 0.7;
-  pointer-events: none;
-  transition: transform 0.2s ease;
-}
